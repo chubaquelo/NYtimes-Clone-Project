@@ -1,0 +1,63 @@
+/* GLOBALS */
+
+
+/* Style Sheet */
+
+
+/* GLOBALS */
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #fff;
+
+    /* 1rem = 10px */
+    
+    font-size: 1.6rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+.d-flex {
+    display: flex;
+}
+
+/* Header */
+
+header {
+    border-bottom: .1rem solid #e2e2e2;
+}
+
+header, .h-left {
+   justify-content: space-between;
+   margin: 0 1.5rem;
+   align-items: center;
+}
+
+header div a {
+    font-weight: 700;
+    color: #000;
+}
+
+.h-left i {
+    padding: 0.8rem;
+}
+
