@@ -48,6 +48,10 @@ h3{
     color: #333;
 }
 
+h4{
+    margin: 0;
+}
+
 p{
     font-size: 20px;
     color: #333;
@@ -68,6 +72,7 @@ a {
 .blue-btn{
     color: #fff;
     font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     background-color: rgb(86, 123, 149);
     /* border-color: 1px solid rgb(50, 104, 145); */
@@ -183,8 +188,18 @@ aside {
     padding: 0 6rem;
 }
 
+#picks-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
 .single-pick{
     justify-content: space-between;
+    padding-bottom: 15px;
  }
 
 .single-pick div img{
@@ -195,5 +210,38 @@ aside {
 .single-pick p {
     font-size: 1.2rem;
     margin: 0;
+    margin: 0 0 0 15px;
 }
 
+.single-pick a{
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+
+.single-pick a:hover{
+    text-decoration: underline;
+}
+
+.single-pick h4{
+    padding-left: 15px;
+}
+
+.single-pick2{
+    position: relative;
+    background-color: #f6f6f6;
+    padding: 11px 22px 11px 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    right: 11px;
+}
+
+.single-pick2 h4{
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.single-pick2 p{
+    font-size: 12px;
+    color: #121212;
+    line-height: 15px;
+}
