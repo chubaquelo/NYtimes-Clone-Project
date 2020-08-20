@@ -37,6 +37,10 @@ img {
 h1{
     margin: 16px 370px 16px 370px;
 }
+h2 {
+    color: #333;
+    padding-top: 1.6rem;
+}
 
 h3{
     font-family: Arial, Helvetica, sans-serif;
@@ -50,12 +54,12 @@ p{
 }
 
 p a{
-    color: #326891;
     text-decoration: underline;
 }
 
 a {
     text-decoration: none;
+    color: rgb(50, 104, 145);
 }
 .d-flex {
     display: flex;
@@ -116,6 +120,10 @@ header div a {
     color: #888;
 }
 
+.article-box{
+    margin: 0 auto;
+}
+
 .author-info{
     justify-content: space-between;
     align-items: center;
@@ -133,12 +141,59 @@ header div a {
     border-radius: 100%;
     padding: 8px;
     margin: 0 5px;
+    cursor: pointer;
 }
 
 .share-icons2{
     margin: 0 5px;
 }
 
-.article-box{
-    margin: 0 25%;
+.left-space, aside {
+    width: 25%;
 }
+
+.article-container {
+    width: 50%;
+}
+
+.subscrib-call {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.subscrib-call hr {
+    width: 5rem;
+}
+
+.subscrib-call h3{
+    margin-bottom: 0.2rem;
+}
+
+.subscrib-call a {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscrib-call .b-hr {
+    margin-top: 1.7rem;
+}
+
+aside {
+    align-self: center;
+    padding: 0 6rem;
+}
+
+.single-pick{
+    justify-content: space-between;
+ }
+
+.single-pick div img{
+   max-width: 75px !important;
+   height: 75px;
+}
+
+.single-pick p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
