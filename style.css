@@ -73,6 +73,10 @@ a {
     display: grid;
 }
 
+.tb1b{
+    border-top: 1px solid #000;
+}
+
 .blue-btn{
     color: #fff;
     font-size: 10px;
@@ -135,6 +139,10 @@ header, .h-left {
    justify-content: space-between;
    margin: 0 1.5rem;
    align-items: center;
+}
+
+#header-logo-container {
+    align-items: center;
 }
 
 header div a {
@@ -352,6 +360,10 @@ iframe {
     width: 30rem;
 }
 
+.read-more-comment .blue-btn{
+    font-size: 12px;
+}
+
 .article-version{
     color: rgb(102, 102, 102);
     font-family: Arial, Helvetica, sans-serif;
@@ -373,7 +385,7 @@ section{
 }
 
 #related-articles {
-    width: 79%;
+    width: 73%;
     float: left;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -381,10 +393,17 @@ section{
     gap: 15px;
     border-top: 0.1rem solid #000;
     margin-right: 2%;
+    margin-bottom: 20px;
+}
+
+#related-articles .date-info{
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    margin: 0;
 }
 
 #most-popular{
-    width: 19%;
+    width: 25%;
     float: left;
     border-top: 0.1rem solid #000;
 }
@@ -400,7 +419,7 @@ section{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     padding: 1.5rem 0 0 0;
-    margin:0;
+    margin: 0;
 }
 
 .grid-3 {
@@ -411,12 +430,14 @@ section{
     font-size: 10px;
     color: rgb(153, 153, 153);
     text-align: right;
+    margin: 0 0 4px 0;
 }
 
 .article-titles{
     line-height: 22px;
     color: rgb(18, 18, 18);
     font-size: 16px;
+    margin: 6px 0;
 }
 
 .article-titles a{
@@ -432,7 +453,8 @@ footer{
     width: calc(100% - 20rem);
     flex-wrap: wrap;
     margin: 0 auto;
-    border-top: 0.2rem double #999;
+    padding: 15px 0;
+    border-top: 2px solid #ccc;
 }
 
 .footer-t {
@@ -443,6 +465,7 @@ footer{
 .footer-links {
     justify-content: space-between;
     width: 100%;
+    border-bottom: 1px solid #ebebeb;
 }
 
 .footer-links ul{
@@ -472,11 +495,29 @@ footer{
     list-style: none;
     padding: 0rem;
     margin: 0 0 2rem 0;
+    padding: 10px 0;
 }
 
 .footer-b ul li {
     display: inline;
-    font-size: 1rem;
-    color: #888;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: #666;
     margin-left: 1.3rem;
+}
+
+.footer-b ul li a{
+    color: #666;
+}
+
+.footer-small-links{
+        color: rgb(102, 102, 102);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        color: rgb(102, 102, 102);
+        text-decoration: none;
+    }
+
+.footer-small-links:hover{
+    text-decoration: underline;
 }
