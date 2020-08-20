@@ -75,15 +75,42 @@ a {
 
 .blue-btn{
     color: #fff;
-    font-size: 11px;
+    font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    background-color: rgb(86, 123, 149);
-    /* border-color: 1px solid rgb(50, 104, 145); */
+    background-color: #567B95;
     border-radius: 3px;
     letter-spacing: .05em;
-    padding: 8px 12px;
+    padding: 11px 7px 7px 11px;
+    transition: 0.3s;
+    border: none;
+    /* background-color: rgb(86, 123, 149); */
+    /* border-color: 1px solid rgb(50, 104, 145); */
     cursor: pointer;
+}
+
+.blue-btn:hover{
+    background-color: #326891;
+}
+
+#space-cosmos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.nav-btn{
+    padding: 1px 1px;
+    border-radius: 3px;
+    border: none;
+    margin-right: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.nav-btn:hover{
+    background-color: #f7f7f7;
 }
 
 .auto-margin {
@@ -98,6 +125,10 @@ a {
 
 header {
     border-bottom: .1rem solid #e2e2e2;
+    height: 40px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
 }
 
 header, .h-left {
