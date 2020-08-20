@@ -26,6 +26,7 @@ body {
     font-size: 1.6rem;
     width: 100%;
     margin: 0 auto;
+    font-family: georgia,'times new roman',times,serif;
 }
 
 img {
@@ -33,11 +34,43 @@ img {
     height: auto;
 }
 
+h1{
+    margin: 16px 370px 16px 370px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #333;
+}
+
+p{
+    font-size: 20px;
+    color: #333;
+}
+
+p a{
+    color: #326891;
+    text-decoration: underline;
+}
+
 a {
     text-decoration: none;
 }
 .d-flex {
     display: flex;
+}
+
+.blue-btn{
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    background-color: rgb(86, 123, 149);
+    /* border-color: 1px solid rgb(50, 104, 145); */
+    border-radius: 3px;
+    letter-spacing: .05em;
+    padding: 8px 12px;
+    cursor: pointer;
 }
 
 /* Header */
@@ -61,3 +94,51 @@ header div a {
     padding: 0.8rem;
 }
 
+/* Here begins the body styling */
+
+.hero{
+    margin: 25px 200px 43px 200px;
+}
+
+#hero-img{
+    width: 945px;
+    height: 550px;
+}
+
+.hero-img-desc{
+    font-size: 15px;
+    color: #666;
+    width: 75%;
+}
+
+.hero-img-caption{
+    font-size: 13px;
+    color: #888;
+}
+
+.author-info{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-info{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.share-icons{
+    background-color: #eee;
+    border-radius: 100%;
+    padding: 8px;
+    margin: 0 5px;
+}
+
+.share-icons2{
+    margin: 0 5px;
+}
+
+.article-box{
+    margin: 0 25%;
+}
