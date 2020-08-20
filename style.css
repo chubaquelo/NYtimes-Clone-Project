@@ -341,18 +341,39 @@ section{
     margin: 45px 100px 0 100px;
 }
 
-#related-articles{
-    width: 80%;
+#related-articles {
+    width: 79%;
     float: left;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1 fr 1fr;
     gap: 15px;
+    border-top: 0.1rem solid #000;
+    margin-right: 2%;
 }
 
 #most-popular{
-    width: 20%;
+    width: 19%;
     float: left;
+    border-top: 0.1rem solid #000;
+}
+
+#most-popular p.article-titles {
+    border-top: 0.1rem solid #e2e2e2;
+    padding-top: 1rem;
+}
+
+.related-article-title {
+    color: #000;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 1.5rem 0 0 0;
+    margin:0;
+}
+
+.grid-3 {
+    grid-column: 1 / span 3;
 }
 
 .related-caption{
@@ -365,6 +386,11 @@ section{
     line-height: 22px;
     color: rgb(18, 18, 18);
     font-size: 16px;
+}
+
+.article-titles a{
+    color: rgb(18, 18, 18);
+    text-decoration: none;
 }
 
 /* RELATED ARTICLES STYLING ABOVE */
