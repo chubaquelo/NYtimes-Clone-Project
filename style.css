@@ -126,9 +126,13 @@ header div a {
     height: 550px;
 }
 
-.hero-img-desc{
-    font-size: 15px;
+.hero-img-desc, .hero-img-desc2{
+    font-size: 16px;
     color: #666;
+    width: 75%;
+}
+.hero-img-desc2{
+    width: 95%;
 }
 
 .hero-img-caption{
@@ -315,4 +319,57 @@ iframe {
 
 .read-more-comment .blue-btn{
     width: 30rem;
+}
+
+.article-version{
+    color: rgb(102, 102, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.version-links{
+    color: rgb(102, 102, 102);
+}
+
+.version-links:hover{
+    text-decoration: none;
+}
+
+/* RELATED ARTICLES STYLING BELOW */
+
+section{
+    margin: 45px 100px 0 100px;
+}
+
+#related-articles{
+    width: 80%;
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1 fr 1fr;
+    gap: 15px;
+}
+
+#most-popular{
+    width: 20%;
+    float: left;
+}
+
+.related-caption{
+    font-size: 10px;
+    color: rgb(153, 153, 153);
+    text-align: right;
+}
+
+.article-titles{
+    line-height: 22px;
+    color: rgb(18, 18, 18);
+    font-size: 16px;
+}
+
+/* RELATED ARTICLES STYLING ABOVE */
+
+/* FOOTER STYLING BELOW */
+footer{
+    width: 100%;
 }
