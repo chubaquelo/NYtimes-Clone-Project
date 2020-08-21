@@ -1,28 +1,13 @@
-/* GLOBALS */
-
-
 /* Style Sheet */
-
-
 /* GLOBALS */
 
 html {
     font-size: 62.5%;
-    box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
 }
 
 body {
     background-color: #fff;
-
-    /* 1rem = 10px */
-    
     font-size: 1.6rem;
     width: 100%;
     margin: 0 auto;
@@ -65,6 +50,15 @@ a {
     text-decoration: none;
     color: rgb(50, 104, 145);
 }
+
+iframe{
+    border: 0;
+}
+
+.sans-serif{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .d-flex {
     display: flex;
 }
@@ -77,6 +71,8 @@ a {
     border-top: 1px solid #000;
 }
 
+/* Buttons styling */
+
 .blue-btn{
     color: #fff;
     font-size: 10px;
@@ -88,8 +84,6 @@ a {
     padding: 11px 7px 7px 11px;
     transition: 0.3s;
     border: none;
-    /* background-color: rgb(86, 123, 149); */
-    /* border-color: 1px solid rgb(50, 104, 145); */
     cursor: pointer;
 }
 
@@ -132,6 +126,7 @@ header {
     height: 40px;
     position: sticky;
     top: 0;
+    z-index: 1;
     background-color: #fff;
 }
 
