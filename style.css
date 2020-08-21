@@ -408,6 +408,10 @@ section{
     border-top: 0.1rem solid #000;
 }
 
+#most-popular .related-article-title {
+    padding-bottom: 0.8rem;
+}
+
 #most-popular p.article-titles {
     border-top: 0.1rem solid #e2e2e2;
     padding-top: 1rem;
