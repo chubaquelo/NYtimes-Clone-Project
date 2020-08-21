@@ -466,6 +466,18 @@ footer{
     width: 100%;
 }
 
+.go-to-home-link{
+    color: rgb(86, 123, 149);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    margin-bottom: 2rem;
+}
+
+.go-to-home-link a{
+    text-decoration: none;
+}
+
 .footer-links {
     justify-content: space-between;
     width: 100%;
@@ -552,4 +564,31 @@ footer{
 
 .footer-small-links:hover{
     text-decoration: underline;
+}
+
+#bottom-bar{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    border-top: 1px solid #000;
+    background-color: #fff;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#bottom-bar i{
+    position: relative;
+    left: 25%;
+    /* left: 330px; */
+}
+
+#expand{
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: relative;
+    left: 22%;
+    /* left: 300px; */
 }
