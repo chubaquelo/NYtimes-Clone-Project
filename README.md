@@ -19,21 +19,17 @@ HTML + CSS
 [Live Demo Link](https://chubaquelo.github.io/NYtimes-Clone-Project/ "Live Demo")
 
 ## Authors
-### 👤 Guillain Bismiwa
+👤 **Guillain Bisimwa**
 
-Github: @guillainbisimwa
+- Github: [@guillainbisimwa](https://github.com/guillainbisimwa)
+- Twitter: [@gullain_bisimwa](https://twitter.com/gullain_bisimwa)
+- Linkedin: [linkedin](https://www.linkedin.com/in/guillain-bisimwa-8a8b7a7b/)
 
-Twitter: @gullain_bisimwa
+👤 **Sergio Obolevich**
 
-Linkedin: guillain-bisimwa-8a8b7a7b
-
-### 👤 Sergio Obolevich
-
-Github: @chubaquelo
-
-Twitter: @sergioobolevich
-
-Linkedin: sergio-obolevich
+- Github: [@chubaquelo](https://github.com/chubaquelo)
+- Twitter: [@sergioobolevich](https://twitter.com/SergioObolevich)
+- Linkedin: [sergio-obolevich](https://www.linkedin.com/in/sergio-obolevich/)
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
