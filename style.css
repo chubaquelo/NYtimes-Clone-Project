@@ -490,6 +490,34 @@ footer{
     line-height: 2.2rem;
 }
 
+.subscribe-container{
+    border-left: 0.1rem solid #e2e2e2;
+    padding-left: 1rem;
+}
+
+.subscribe {
+    margin:0;
+}
+
+.subscribe img{
+    width: 1.2rem;
+}
+
+.subscribe h3 {
+    font-weight: bolder;
+    color: #000;
+    margin: 0.6rem 0;
+}
+
+.subscribe .times-t-logo img{
+    width: 1rem;
+}
+
+.more-about-times {
+    border-top: 0.1rem solid #e2e2e2;
+    padding-top: 1rem;
+}
+
 .footer-b {
     width: 100%;
     text-align: center;
@@ -515,12 +543,12 @@ footer{
 }
 
 .footer-small-links{
-        color: rgb(102, 102, 102);
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1rem;
-        color: rgb(102, 102, 102);
-        text-decoration: none;
-    }
+    color: rgb(102, 102, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+}
 
 .footer-small-links:hover{
     text-decoration: underline;
