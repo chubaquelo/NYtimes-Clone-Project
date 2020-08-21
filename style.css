@@ -76,9 +76,8 @@ iframe{
 .blue-btn{
     color: #fff;
     font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    background-color: #567B95;
+    background-color: #567b95;
     border-radius: 3px;
     letter-spacing: .05em;
     padding: 11px 7px 7px 11px;
@@ -92,7 +91,6 @@ iframe{
 }
 
 #space-cosmos{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     cursor: pointer;
 }
@@ -174,10 +172,6 @@ header div a {
     color: #888;
 }
 
-.article-box{
-    margin: 0 auto;
-}
-
 .author-info{
     justify-content: space-between;
     align-items: center;
@@ -185,7 +179,6 @@ header div a {
 
 .date-info{
     color: #333;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 12px;
 }
@@ -225,7 +218,6 @@ header div a {
 
 .subscrib-call a {
     font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .subscrib-call .b-hr {
@@ -238,7 +230,6 @@ aside {
 }
 
 #picks-title{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 700;
     padding-bottom: 12px;
@@ -280,7 +271,6 @@ aside {
     position: relative;
     background-color: #f6f6f6;
     padding: 11px 22px 11px 11px;
-    font-family: Arial, Helvetica, sans-serif;
     right: 11px;
 }
 
@@ -316,18 +306,15 @@ aside {
     font-size: 14px;
     line-height: 17px;
     font-weight: 300;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .g-sc{
     font-size: 11px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
 
 .story-by p{
     font-size: 1.3rem;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .story-by::before {
@@ -361,7 +348,6 @@ iframe {
 
 .article-version{
     color: rgb(102, 102, 102);
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
 }
 
@@ -382,9 +368,8 @@ section{
 #related-articles {
     width: 73%;
     float: left;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1 fr 1fr;
+    grid-template-rows: 2;
     gap: 15px;
     border-top: 0.1rem solid #000;
     margin-right: 2%;
@@ -415,7 +400,6 @@ section{
 .related-article-title {
     color: #000;
     font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     padding: 1.5rem 0 0 0;
     margin: 0;
@@ -451,7 +435,6 @@ section{
 footer{
     width: calc(100% - 20rem);
     flex-wrap: wrap;
-    margin: 0 auto;
     padding: 15px 0;
     border-top: 2px solid #ccc;
 }
@@ -463,7 +446,6 @@ footer{
 
 .go-to-home-link{
     color: rgb(86, 123, 149);
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 11px;
     margin-bottom: 2rem;
@@ -481,7 +463,6 @@ footer{
 
 .footer-links ul{
     list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 0rem;
 }
 
@@ -539,7 +520,6 @@ footer{
 
 .footer-b ul li {
     display: inline;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
     color: #666;
     margin-left: 1.3rem;
@@ -549,21 +529,8 @@ footer{
     color: #666;
 }
 
-.footer-small-links{
-    color: rgb(102, 102, 102);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    color: rgb(102, 102, 102);
-    text-decoration: none;
-}
-
-.footer-small-links:hover{
-    text-decoration: underline;
-}
-
 #bottom-bar{
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     width: 100%;
     border-top: 1px solid #000;
