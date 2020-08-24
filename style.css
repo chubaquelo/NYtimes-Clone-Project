@@ -153,14 +153,10 @@ header div a {
 /* Here begins the body styling */
 
 .hero{
-    /* margin: 25px 200px 43px 200px; */
-
     width: 60%;
 }
 
 #hero-img{
-    /* width: 945px;
-    height: 550px; */
     width: 100%;
 }
 
