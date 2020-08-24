@@ -403,6 +403,7 @@ footer{
 .footer-b {
     width: 100%;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .footer-b ul {
@@ -421,18 +422,21 @@ footer{
 
 .footer-b ul li a{color: #666;}
 
-#bottom-bar{
+#bottom-bar, #bottom-bar:hover {
+    position: fixed;
     width: 100%;
     border-top: 1px solid #000;
     height: 55px;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 
 #bottom-bar i{
     position: relative;
     left: 25%;
-    /* left: 330px; */
 }
 
 #expand{
@@ -440,5 +444,4 @@ footer{
     font-weight: 700;
     position: relative;
     left: 22%;
-    /* left: 300px; */
 }
