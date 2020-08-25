@@ -43,8 +43,8 @@ a {
   color: rgb(50, 104, 145);
 }
 
-p a, 
-single-pick-a:hover { text-decoration: underline; }
+p a,
+.single-pick-a:hover { text-decoration: underline; }
 
 iframe {
   border: 0;
