@@ -194,15 +194,6 @@ aside {
 
 .go-to-home-link a { text-decoration: none; }
 
-.footer-b ul li a { color: #666; }
-
-.footer-links ul li a {
-  font-size: 1.3rem;
-  color: #333;
-  font-weight: normal;
-  line-height: 2.2rem;
-}
-
 .single-pick div img {
   max-width: 75px;
   height: 75px;
@@ -426,6 +417,15 @@ footer {
   font-size: 1.1rem;
   color: #666;
   margin-left: 1.3rem;
+}
+
+.footer-b ul li a { color: #666; }
+
+.footer-links ul li a {
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: normal;
+  line-height: 2.2rem;
 }
 
 #bottom-bar,
