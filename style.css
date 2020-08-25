@@ -43,7 +43,10 @@ a {
   color: rgb(50, 104, 145);
 }
 
-p a, .single-pick a:hover { text-decoration: underline; }
+.single-pick {
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
 
 iframe {
   border: 0;
@@ -180,11 +183,6 @@ aside {
   border-bottom: 1px solid rgb(226, 226, 226);
 }
 
-.single-pick {
-  justify-content: space-between;
-  padding-bottom: 15px;
-}
-
 .subscribe img { width: 1.2rem; }
 
 .single-pick div img {
@@ -203,6 +201,9 @@ aside {
   color: rgb(51, 51, 51);
   text-decoration: none;
 }
+
+p a,
+.single-pick a:hover { text-decoration: underline; }
 
 .article-titles a {
   color: rgb(18, 18, 18);
