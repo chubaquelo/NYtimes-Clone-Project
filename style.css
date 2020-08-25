@@ -1,4 +1,3 @@
-/* stylelint-disable */
 /* Style Sheet */
 
 /* GLOBALS */
@@ -44,7 +43,8 @@ a {
   color: rgb(50, 104, 145);
 }
 
-p a { text-decoration: underline; }
+p a, 
+single-pick-a:hover { text-decoration: underline; }
 
 iframe {
   border: 0;
@@ -215,8 +215,6 @@ aside {
   color: rgb(51, 51, 51);
   text-decoration: none;
 }
-
-.single-pick a:hover { text-decoration: underline; }
 
 .version-links { color: rgb(102, 102, 102); }
 .version-links:hover { text-decoration: none; }
