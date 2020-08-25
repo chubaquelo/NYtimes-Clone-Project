@@ -93,7 +93,7 @@ iframe {
 
 .nav-btn:hover { background-color: #f7f7f7; }
 
-/* Header Styling*/
+/* Header Styling */
 
 header {
   border-bottom: 0.1rem solid #e2e2e2;
@@ -120,6 +120,7 @@ header div a {
 #header-logo-container { align-items: center; }
 
 /* Here begins the BODY styling */
+
 /* Hero main image */
 
 .hero { width: 60%; }
