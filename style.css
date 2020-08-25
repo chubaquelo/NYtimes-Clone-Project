@@ -45,11 +45,6 @@ a {
 
 p a { text-decoration: underline; }
 
-.single-pick {
-  justify-content: space-between;
-  padding-bottom: 15px;
-}
-
 iframe {
   border: 0;
   width: 100%;
@@ -68,8 +63,10 @@ iframe {
 .fs12 { font-size: 12px; }
 .fs14 { font-size: 14px; }
 .cpointer { cursor: pointer; }
+.auto-margin { margin: 0 auto; }
+.pt-10 { padding-top: 1rem; }
 
-/* Buttons styling */
+/* Global Buttons styling */
 
 .blue-btn {
   color: #fff;
@@ -95,10 +92,8 @@ iframe {
 }
 
 .nav-btn:hover { background-color: #f7f7f7; }
-.auto-margin { margin: 0 auto; }
-.pt-10 { padding-top: 1rem; }
 
-/* Header */
+/* Header Styling*/
 
 header {
   border-bottom: 0.1rem solid #e2e2e2;
@@ -115,16 +110,17 @@ header,
   align-items: center;
 }
 
-#header-logo-container { align-items: center; }
+.h-left i { padding: 0.8rem; }
 
 header div a {
   font-weight: 700;
   color: #000;
 }
 
-.h-left i { padding: 0.8rem; }
+#header-logo-container { align-items: center; }
 
-/* Here begins the body styling */
+/* Here begins the BODY styling */
+/* Hero main image */
 
 .hero { width: 60%; }
 #hero-img { width: 100%; }
@@ -140,6 +136,8 @@ header div a {
   font-size: 13px;
   color: #888;
 }
+
+/* BODY - Author info */
 
 .author-info {
   justify-content: space-between;
@@ -157,8 +155,15 @@ header div a {
 
 .share-icons2 { margin: 0 5px; }
 
+/* ARTICLE BEGINS - ASIDE BAR */
+
+aside {
+  width: 25%;
+  align-self: center;
+  padding: 0 6rem;
+}
+
 .left-space,
-aside { width: 25%; }
 .article-container { width: 50%; }
 
 .article-container img { width: 100%; }
@@ -172,11 +177,6 @@ aside { width: 25%; }
 .subscrib-call h3 { margin-bottom: 0.2rem; }
 .subscrib-call a { font-weight: 700; }
 .subscrib-call .b-hr { margin-top: 1.7rem; }
-
-aside {
-  align-self: center;
-  padding: 0 6rem;
-}
 
 #picks-title {
   font-weight: 700;
@@ -192,7 +192,10 @@ aside {
   text-decoration: none;
 }
 
-.go-to-home-link a { text-decoration: none; }
+.single-pick {
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
 
 .single-pick div img {
   max-width: 75px;
@@ -291,6 +294,8 @@ section {
   margin: 45px 100px 0 100px;
 }
 
+.go-to-home-link a { text-decoration: none; }
+
 .related-articles {
   width: 73%;
   float: left;
@@ -381,6 +386,15 @@ footer {
   font-size: 1.2rem;
 }
 
+.footer-links ul li a {
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: normal;
+  line-height: 2.2rem;
+}
+
+.footer-b ul li a { color: #666; }
+
 .subscribe-container {
   border-left: 0.1rem solid #e2e2e2;
   padding-left: 1rem;
@@ -417,15 +431,6 @@ footer {
   font-size: 1.1rem;
   color: #666;
   margin-left: 1.3rem;
-}
-
-.footer-b ul li a { color: #666; }
-
-.footer-links ul li a {
-  font-size: 1.3rem;
-  color: #333;
-  font-weight: normal;
-  line-height: 2.2rem;
 }
 
 #bottom-bar,
