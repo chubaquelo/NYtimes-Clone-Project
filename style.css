@@ -187,6 +187,22 @@ aside {
 
 .subscribe img { width: 1.2rem; }
 
+.article-titles a {
+  color: rgb(18, 18, 18);
+  text-decoration: none;
+}
+
+.go-to-home-link a { text-decoration: none; }
+
+.footer-b ul li a { color: #666; }
+
+.footer-links ul li a {
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: normal;
+  line-height: 2.2rem;
+}
+
 .single-pick div img {
   max-width: 75px;
   height: 75px;
@@ -206,23 +222,8 @@ aside {
 
 .single-pick a:hover { text-decoration: underline; }
 
-.article-titles a {
-  color: rgb(18, 18, 18);
-  text-decoration: none;
-}
-
-.go-to-home-link a { text-decoration: none; }
 .version-links { color: rgb(102, 102, 102); }
 .version-links:hover { text-decoration: none; }
-
-.footer-b ul li a { color: #666; }
-
-.footer-links ul li a {
-  font-size: 1.3rem;
-  color: #333;
-  font-weight: normal;
-  line-height: 2.2rem;
-}
 
 .single-pick h4 { padding-left: 15px; }
 
