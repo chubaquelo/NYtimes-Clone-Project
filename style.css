@@ -43,6 +43,8 @@ a {
   color: rgb(50, 104, 145);
 }
 
+p a { text-decoration: underline; }
+
 .single-pick {
   justify-content: space-between;
   padding-bottom: 15px;
@@ -202,7 +204,6 @@ aside {
   text-decoration: none;
 }
 
-p a,
 .single-pick a:hover { text-decoration: underline; }
 
 .article-titles a {
